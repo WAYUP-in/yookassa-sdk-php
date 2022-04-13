@@ -20,16 +20,16 @@ PHP 5.3.2 (or later version) with the libcurl library
 1. Install Composer, a package manager.
 2. In the console, run the following command:
 ```bash
-composer require yoomoney/yookassa-sdk-php
+composer require wayup/yookassa-sdk-php
 ```
 
 ### Do the following for the composer.json file of your project:
-1. Add a string `"yoomoney/yookassa-sdk-php": "^2.1"` to the list of dependencies of your project in the composer.json file
+1. Add a string `"wayup/yookassa-sdk-php": "^1.0"` to the list of dependencies of your project in the composer.json file
 ```
 ...
    "require": {
         "php": ">=5.3.2",
-        "yoomoney/yookassa-sdk-php": "^2.1"
+        "yoomoney/yookassa-sdk-php": "^1.0"
 ...
 ```
 2. Refresh the project's dependencies. In the console, navigate to the catalog with composer.json and run the following command:
